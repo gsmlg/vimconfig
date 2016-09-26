@@ -77,6 +77,8 @@ set expandtab
 set smarttab
 "do not create backup files which like index.html~
 set nobackup
+"set no persistence undo
+set noundofile
 "open line number
 set number
 "set color theme
@@ -88,4 +90,7 @@ set guioptions-=T
 "set auto indent
 set autoindent
 set smartindent
+" set mouse=r copy in iterm2
+set mouse=r
+
 
